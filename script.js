@@ -18,7 +18,7 @@ function generate(hits, misses) {
 var hits = 1;
 var misses = 1;
 var ymax = 6
-Plotly.plot('graph', [generate(hits, misses)]);
+Plotly.newPlot('graph', [generate(hits, misses)]);
 
   Plotly.animate('graph', {
     traces: [0],
